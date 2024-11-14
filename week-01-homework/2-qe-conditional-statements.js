@@ -34,19 +34,19 @@ console.log(adult(77));
 // 문제 4: switch문을 사용하여 요일을 출력하세요.
 let day = (d) => {
   switch (d) {
-    case "월":
+    case 1:
       return "월요일";
       break;
-    case "화":
+    case 2:
       return "화요일";
       break;
-    case "수":
+    case 3:
       return "수요일";
       break;
-    case "목":
+    case 4:
       return "목요일";
       break;
-    case "금":
+    case 5:
       return "금요일";
       break;
     default:
@@ -54,5 +54,8 @@ let day = (d) => {
   }
 };
 
-console.log(day("월"));
+console.log(day(2));
+
 // 문제 5: 두 숫자를 비교하여 큰 수를 출력하세요.
+let comparison = (n, m) => (n > m ? n : m);
+console.log(comparison(3, 10));
