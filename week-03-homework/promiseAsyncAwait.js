@@ -29,5 +29,7 @@ async function openTreasureBox() {
     }
 }
 
-// 4. then, catch를 try/catch, async/await로 변경해보기. (이 부분은 스스로 공부해보세요!)
 openTreasureBox(); // 함수 호출
+
+
+// 4. then, catch를 try/catch, async/await로 변경해보기. (이 부분은 스스로 공부해보세요!)
