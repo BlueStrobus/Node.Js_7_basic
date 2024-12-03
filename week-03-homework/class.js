@@ -48,4 +48,4 @@ console.log(`레벨 ${julCharacter.level} jul의 체력 : ${julCharacter.health}
 
 julCharacter.levelUP();
 console.log(`레벡 ${julCharacter.level} jul의 체력 : ${julCharacter.health}, 공격력 : ${julCharacter.power}`);
-// 레벡 2  jul의 체력 : 138, 공격력 : 68
+// 레벨 2  jul의 체력 : 138, 공격력 : 68
