@@ -22,6 +22,18 @@ function findTreasure() {
 }
 
 // 3. findTreasure를 호출한 뒤 try와 .catch()를 사용하여 성공과 실패 메시지를 출력하세요
+async function treasureHunt() {
+  try {
+    const message = await findTreasure();
+    console.log(message); // 성공 메시지 출력
+  } catch (error) {
+    console.log(error); // 실패 메시지 출력
+  }
+}
+
+treasureHunt();
+
+/*
 (async function () {
     try {
         const result = await findTreasure();
@@ -29,4 +41,4 @@ function findTreasure() {
     } catch (error) {
         console.log(error); // 실패 메시지 출력
     }
-})();
+})();*/
