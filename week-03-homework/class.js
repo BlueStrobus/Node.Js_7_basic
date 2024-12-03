@@ -25,7 +25,8 @@ class Character {
     // levelUp 메서드를 구현하여 레벨업을 하면 렌덤으로 체력, 공격력을 추가해줄 것.
     levelUP() {
         this.level++;
-        const randomUp = Math.floor(Math.random() * 100);
+        // const randomUp = Math.floor(Math.random() * 100); // 같은 숫자가 들어감
+        const randomUp = () => Math.floor(Math.random() * 100); // 부를 때 마다 렌덤 새로 돌림
         this.health += randomUp;
         this.power += randomUp;
     }
