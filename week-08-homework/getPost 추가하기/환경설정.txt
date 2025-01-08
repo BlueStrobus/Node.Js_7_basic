@@ -1,0 +1,12 @@
+yarn init -y
+yarn add express
+yarn add -D nodemon
+yarn add dotenv
+yarn add typescript @types/node @types/express -D
+
+yarn add @prisma/client
+yarn add -D prisma
+npx prisma init
+
+npx prisma generate
+
